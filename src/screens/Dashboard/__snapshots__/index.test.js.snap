@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard screen component should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "ghostwhite",
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <FlatList
+    data={
+      Array [
+        Object {
+          "country": "united_arab_Emirates",
+          "displayName": "Abu Dhabi",
+          "id": "1",
+          "name": "Abu_Dhabi",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "gainsboro",
+        "borderRadius": 4,
+        "borderWidth": 1,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <Connect(AddCityModal)
+    toggleVisibility={[Function]}
+    visible={false}
+  />
+</View>
+`;
+
+exports[`Dashboard screen component should render correctly 2`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "ghostwhite",
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <FlatList
+    data={
+      Array [
+        Object {
+          "country": "united_arab_Emirates",
+          "displayName": "Abu Dhabi",
+          "id": "1",
+          "name": "Abu_Dhabi",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "gainsboro",
+        "borderRadius": 4,
+        "borderWidth": 1,
+      }
+    }
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+  <Connect(AddCityModal)
+    toggleVisibility={[Function]}
+    visible={true}
+  />
+</View>
+`;

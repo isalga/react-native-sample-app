@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CityWeatherListItem component should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+      "height": 44,
+      "justifyContent": "space-around",
+      "padding": 10,
+    }
+  }
+>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      Abu Dhabi
+       - 
+      ...loading
+    </Text>
+  </TouchableOpacity>
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+  >
+    <Icon
+      color="black"
+      name="delete"
+      raised={false}
+      reverse={false}
+      reverseColor="white"
+      size={24}
+      underlayColor="white"
+    />
+  </TouchableOpacity>
+</View>
+`;

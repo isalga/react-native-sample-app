@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCityModal component should not break 1`] = `
+<Component
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={false}
+  visible={false}
+>
+  <View
+    style={
+      Object {
+        "marginTop": 30,
+      }
+    }
+  >
+    <Button
+      accessibilityLabel="Close modal"
+      onPress={[Function]}
+      title="Close"
+    />
+    <Component
+      data={Array []}
+      defaultValue=""
+      onChangeText={[Function]}
+      renderItem={[Function]}
+    />
+  </View>
+</Component>
+`;
+
+exports[`AddCityModal component should render correctly 1`] = `
+<Component
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={false}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "marginTop": 30,
+      }
+    }
+  >
+    <Button
+      accessibilityLabel="Close modal"
+      onPress={[Function]}
+      title="Close"
+    />
+    <Component
+      data={Array []}
+      defaultValue=""
+      onChangeText={[Function]}
+      renderItem={[Function]}
+    />
+  </View>
+</Component>
+`;
+
+exports[`AddCityModal component should render hidded element 1`] = `
+<Component
+  animationType="slide"
+  hardwareAccelerated={false}
+  onRequestClose={[Function]}
+  transparent={false}
+  visible={false}
+>
+  <View
+    style={
+      Object {
+        "marginTop": 30,
+      }
+    }
+  >
+    <Button
+      accessibilityLabel="Close modal"
+      onPress={[Function]}
+      title="Close"
+    />
+    <Component
+      data={Array []}
+      defaultValue=""
+      onChangeText={[Function]}
+      renderItem={[Function]}
+    />
+  </View>
+</Component>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CityWeather screen component should render correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "ghostwhite",
+      "flex": 1,
+      "padding": 20,
+    }
+  }
+>
+  <WeatherPanel
+    title="Abu_Dhabi"
+    weather={
+      Object {
+        "cityId": "1",
+        "humidity": "testhumidity",
+        "precipitation": "testprecipitation",
+        "temperature": "testtemperature",
+        "windDirection": "testwindDirection",
+        "windSpeed": "testwindSpeed",
+      }
+    }
+  />
+</View>
+`;
