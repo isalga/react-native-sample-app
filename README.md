@@ -20,14 +20,14 @@ Update snapshots:
 source structure
 --------------
 ```
-├── config/                 // (wundergorun API key)
+├── config/                 // (wunderground API key)
 ├── entities/
 │   └── city                // react, redux, reselect code that represents city
 │   └── weather             // ||
-│   └── types.js            // flow types for typechecking
-├── screens/                // App screens components
-├── services/               // point of contact with API's and parsing of responses
+│   └── types.js            // types for typechecking
+├── screens/                // App screens components that will be used in StackNavigator
+├── services/               // point of contact to API's and parsing of responses
 ├── store/                  // redux store
-├── styles/                 // theme styles
+├── styles/                 // global theme styles (colors, etc)
 └── Navigator.js            // react-navigation StackNavigator
 ```
